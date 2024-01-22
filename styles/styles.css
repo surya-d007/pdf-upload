@@ -1,0 +1,85 @@
+.text-grey {
+    color: #9ba1a7  ;
+}
+
+
+
+.move-body{
+    margin-top: 80px;
+}
+
+
+.nav-logo{
+    width: 60px;
+}
+
+.pdf-img{
+    height: 30px;
+    filter: invert(100%);
+}
+.drop-down-img{
+    height: 17px;
+    filter: invert(100%);
+}
+.question-img{
+    height: 23px;
+}
+.right-arrow{
+    height: 15px;
+    filter: invert(100%);
+}
+
+.btn-btn{
+    background-color: #00bb88;
+    color: white;
+    
+}
+.btn-btn.more{
+background-color: #edfaf7;
+color: #11bc99;
+}
+
+.pass-input{
+    width: 70%;
+}
+
+.pos-rel {
+    position: relative;
+  }
+
+  .pos-abs {
+    position: absolute;
+    top: 60px; 
+    width: 100%; /* Set the width to 100% */
+    height: 500px;
+    background-image: url('../waves-fotor-2023120716618.png'); /* Replace with the actual path to your image */
+    background-size: contain;
+    z-index: -1;
+    background-repeat: no-repeat;
+  }
+  
+  .start-delete-img{
+    height: 23px;
+
+  }
+
+
+  @media( max-width : 800px) {
+    .pos-abs{
+        top:100px
+        
+    }
+}
+
+@media( max-width : 600px) {
+    .pos-abs{
+        top:130px;
+    }
+}
+
+@media( max-width : 600px) {
+    .pos-abs{
+        visibility: hidden;
+    }
+}
+
